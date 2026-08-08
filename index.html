@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ILYA</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#000,#111,#1b1b1b);
+    color:white;
+    text-align:center;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero img{
+    width:260px;
+    height:260px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid gold;
+    box-shadow:0 0 40px gold;
+}
+
+h1{
+    font-size:70px;
+    margin-top:25px;
+    color:gold;
+    text-shadow:0 0 25px gold;
+}
+
+.subtitle{
+    font-size:24px;
+    color:#ccc;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:70px;
+}
+
+.card{
+    width:270px;
+    background:#181818;
+    border-radius:20px;
+    padding:25px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.05);
+    box-shadow:0 0 25px gold;
+}
+
+.card h2{
+    color:gold;
+    margin-bottom:15px;
+}
+
+button{
+    margin-top:40px;
+    padding:18px 40px;
+    border:none;
+    border-radius:30px;
+    background:gold;
+    color:black;
+    font-size:20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+footer{
+    padding:50px;
+    color:gray;
+}
+</style>
+
+</head>
+<body>
+
+<section class="hero">
+
+<img src="ilya.jpg">
+
+<h1>ILYA</h1>
+
+<p class="subtitle">
+18 лет • Спортсмен • Germany 🇩🇪
+</p>
+
+<button onclick="alert('он никогда не сдается')">
+Узнать секрет успеха
+</button>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h2>🏋️ Спорт</h2>
+<p>
+Регулярно тренируется и любит спариваться с женщинами.
+</p>
+</div>
+
+<div class="card">
+<h2>🏫 Учёба</h2>
+<p>
+Учится в Max Eyth Schule.
+пришел из Гарварда
+</p>
+</div>
+
+<div class="card">
+<h2>🌍 Страна</h2>
+<p>
+Живёт в Германии. Приехал из Лондона
+</p>
+</div>
+
+<div class="card">
+<h2>❤️ Предпочтения</h2>
+<p>
+Нравятся женщины с разной внешностью — брюнетки, блондинки, темнокожие и другие.(любит не бритые писи)
+</p>
+</div>
+
+<div class="card">
+<h2>⭐ Статистика</h2>
+<p>
+💪 Сила: 100/100<br>
+😎 Харизма: 99/100<br>
+🔥 Легендарность: 1000/100<br>
+Член: 30см 
+</p>
+</div>
+<div class="card">
+<h2>Самый частопосещаемый сайт</h2>
+<button onclick="alert('pornhub.com')">
+102 раза в этом месяце
+</button>
+</div>
+<div class="card">
+<h2>👑 Статус</h2>
+<p>
+Главный герой своей истории.
+</p>
+</div>
+
+</section>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
